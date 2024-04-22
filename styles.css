@@ -1,0 +1,49 @@
+h1 {
+    font-size: 1.75rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(0deg, #87cefa, #add9f4, #87cefa);
+}
+
+.container {
+    text-align: center;
+}
+
+.box {
+    background-color: rgb(202, 222, 239);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #cc7e7e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d14848;
+}
+
+ol {
+    text-align: 'left';
+}
+
+li {
+    text-align: left;
+}
